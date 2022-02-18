@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === "none"){
-    return ""
+    return `\n* [License](#license)\n`
   }
   return`!`
 }
@@ -20,7 +20,8 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "none"){
-    return ""
+    return `## License
+    This project is under the ${liccense} license.`
   }
   return`!`
 }
@@ -34,8 +35,43 @@ ${data.description}
 ## Table of Conents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
-* ${renderLicenseSection(data.license)}
+*${renderLicenseLink(data.license)}
+* [Tests](#tests)
+*[Questions](*questions)
+
+## Installation
+
+To install necessary dependencies, run the following command:
+
+\`\`\`
+${data.installation}
+\`\`\`
+
+## Usage
+
+${data.usage}
+
+${renderLicenseSection(data.license)}
+  
+## Contributing
+
+${data.contributing}
+
+## Tests
+
+To run tests, run the following command:
+
+\`\`\`
+${data.test}
+\`\`\`
+
+## Questions
+
+If you have any questions about the repo, open an issue or contact me directly at ${
+    data.email
+  }. You can find more of my work at [${data.github}](https://github.com/${
+    data.github
+  }/).
 
 `;
 }
