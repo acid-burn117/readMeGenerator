@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (license === "none") {
     return ""
   }
-  return `![github License](https://img.shields.io/badge/license-${license}-blue)`
+  return `![github License](https://img.shields.io/badge/license-${license}-blue.svg)`
 }
 
 // TODO: Create a function that returns the license link

@@ -1,7 +1,7 @@
-# README Generator
-![github License](https://img.shields.io/badge/license-MIT-blue)
+# d
+![github License](https://img.shields.io/badge/license-Appacge2.0-blue.svg)
 ## description
-easy to you commandline app to create profesional README's
+d
 ## Table of Conents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -14,12 +14,12 @@ easy to you commandline app to create profesional README's
 To install necessary dependencies, run the following command:
 
 ```
-npm i
+d
 ```
 
 ## Usage
 
-dont mess it up
+d
 
 !
   
@@ -37,5 +37,5 @@ undefined
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at osoriodouglas19@gmail.com. You can find more of my work at [undefined](https://github.com/undefined/).
+If you have any questions about the repo, open an issue or contact me directly at d. You can find more of my work at [undefined](https://github.com/undefined/).
 
