@@ -20,10 +20,10 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "none"){
-    return `## License
-    This project is under the ${liccense} license.`
-  }
-  return`!`
+    return`!`
+  }return `## License
+  This project is under the ${license} license.`
+  
 }
 
 // TODO: Create a function to generate markdown for README
@@ -36,8 +36,9 @@ ${data.description}
 * [Installation](#installation)
 * [Usage](#usage)
 *${renderLicenseLink(data.license)}
-* [Tests](#tests)
-*[Questions](*questions)
+* [Contribution](#contribution)
+* [Tests](*tests)
+* [Questions](*questions)
 
 ## Installation
 
@@ -55,14 +56,14 @@ ${renderLicenseSection(data.license)}
   
 ## Contributing
 
-${data.contributing}
+${data.contribution}
 
 ## Tests
 
 To run tests, run the following command:
 
 \`\`\`
-${data.test}
+${data.tests}
 \`\`\`
 
 ## Questions
